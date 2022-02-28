@@ -1,11 +1,41 @@
-import { Company } from "./Company";
- 
+import Image from "react-bootstrap/Image";
+
+const Company = ({name, website,icon,jobTitle, jobLevel, periodStr, description}) => {
+  return (
+    <div className="mt-3">
+      <div className="d-flex">
+        <div className="flex-shrink-0">
+          <a
+            href={website}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Image
+              width="60"
+              height="60"
+              src={icon}
+              roundedCircle
+              thumbnail
+            />
+          </a>
+        </div>
+        <div className="flex-grow-1 ms-3">
+          <h6>{jobTitle}</h6>
+          <div className='lh-1'>{name} · {jobLevel}</div>
+          <div className="text-secondary"  style={{ fontSize : '14px',}}>{periodStr}</div>
+          <div style={{whiteSpace: 'pre-wrap',}}>{description}
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
 
 export const Experience = ()=>{
 return(    
 
 <div>
-    <h4>Experience</h4>
+    <h5>Experience</h5>
      <Company
          website="https://www.crimsonlogic.com/"
          icon="https://raw.githubusercontent.com/blackdurian/my-resume/gh-pages/company-icon/crimsomlogic.jpg"
@@ -28,7 +58,7 @@ return(
          website="https://www.crimsonlogic.com/"
          icon="https://raw.githubusercontent.com/blackdurian/my-resume/gh-pages/company-icon/dieboldnixdorf.jpg"
          jobTitle='Quality Assurance Tester'
-         name='Diebold Nixdorf'
+         name='Diebold Nixdorf (Malaysia) Sdn Bhd'
          jobLevel='Internship'
          periodStr='Sep 2019 - Dec 2019 · 3 mos'
          description= {`Developing test cases and verification of the test environment based on project's requirements was done on daily basis. It included designing and executing test scripts.`}

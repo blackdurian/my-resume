@@ -4,6 +4,7 @@ import {
   AiOutlineGithub,
   AiOutlineWhatsApp,
   AiOutlineMail,
+  AiOutlineFilePdf,
 } from "react-icons/ai";
 import { MdOutlineLocationOn } from "react-icons/md";
 
@@ -65,7 +66,19 @@ export const Header = () => {
           <a
             className="text-decoration-none text-secondary"
             href="https://github.com/blackdurian"
-            title="Linkedin"
+            title="Curriculum Vitae"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <AiOutlineFilePdf /> CurriculumVitae.pdf
+          </a>
+        </div>
+        <div className="vr" />
+        <div>
+          <a
+            className="text-decoration-none text-secondary"
+            href="https://github.com/blackdurian"
+            title="Github"
             target="_blank"
             rel="noopener noreferrer"
           >

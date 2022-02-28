@@ -1,8 +1,8 @@
 export const Summary = () => {
   return (
     <div>
-      <h4>Summary</h4>
-      <div className="mt-3">
+      <h5>Summary</h5>
+      <div className="mt-2">
         <p>
           I’m a student, software developer and a problem solver who thrives in
           solving complex problems, whether that's through coding innovative
