@@ -6,6 +6,7 @@ import { Experience } from "./components/Experience";
 import {TechStack } from './components/TechStack';
 import { Languages } from "./components/Languages";
 import { Education } from "./components/Education";
+import { IndustryKnowledge } from "./components/IndustryKnowledge";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Col className='me-5'>
             <Summary />
             <TechStack/>
+            <IndustryKnowledge />
             <Languages />
           </Col>
           <Col>

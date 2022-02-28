@@ -14,7 +14,8 @@ export const Education = () => {
             <Image
               width="60"
               height="60"
-              src="https://raw.githubusercontent.com/blackdurian/my-resume/gh-pages/company-icon/crimsomlogic.jpg"
+              src="https://raw.githubusercontent.com/blackdurian/my-resume/gh-pages/company-icon/apu.jpg"
+              roundedCircle
               thumbnail
             />
           </a>
@@ -39,7 +40,8 @@ export const Education = () => {
             <Image
               width="60"
               height="60"
-              src="https://raw.githubusercontent.com/blackdurian/my-resume/gh-pages/company-icon/crimsomlogic.jpg"
+              src="https://raw.githubusercontent.com/blackdurian/my-resume/gh-pages/company-icon/apu.jpg"
+              roundedCircle
               thumbnail
             />
           </a>

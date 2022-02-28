@@ -8,7 +8,7 @@ export const TechStack = () => {
         <figure>
           <p className="fw-bold">Java</p>
           <figcaption class="blockquote-footer lh-sm">
-            Hibernate ,Spring Boot, Spring MVC, Spark Java, Vert.x, Junit, Jackson and etc.
+            Hibernate ,Spring Boot, Spring MVC, Spark Java, Vert.x, Jakarta EE, Jackson and etc.
             <div>
               <ProgressBar variant="warning" now={90} />
             </div>
