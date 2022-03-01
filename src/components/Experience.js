@@ -44,7 +44,7 @@ return(
          name='CrimsonLogic Pte Ltd'
          jobLevel='Internship'
          periodStr='Dec 2020 - Apr 2021 · 4 mos'
-         description= {`- Be part of Coherence Data Exchange Platform (DXP) product team to build a product that publisher can publish Datasets and made available for use to subscribers. \n- Contributed on bug fixes, features development, automation test, and function research.`}
+         description= {`- Be part of Coherence Data Exchange Platform (DXP) product team to build a product that publisher can publish Datasets and made available for users to subscribe. \n- Contributed on bug fixes, features development, automation test, and function research.`}
      />
           <Company
          website="https://yonyou.com.my/"
