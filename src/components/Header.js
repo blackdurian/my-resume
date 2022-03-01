@@ -57,7 +57,7 @@ export const Header = () => {
             <a
               className="text-decoration-none text-secondary pe-4"
               href="mailto:loweiquan@gmail.com"
-              title="Email" 
+              title="Email"
               rel="noopener noreferrer"
             >
               <AiOutlineMail /> loweiquan@gmail.com

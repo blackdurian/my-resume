@@ -1,6 +1,6 @@
 export const Summary = () => {
   return (
-    <div>
+    <>
       <h5>Summary</h5>
       <div className="mt-2">
         <p>
@@ -13,6 +13,6 @@ export const Summary = () => {
           hear from you.
         </p>
       </div>
-    </div>
+    </>
   );
 };

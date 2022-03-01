@@ -2,13 +2,14 @@ import { ProgressBar } from "react-bootstrap";
 
 export const TechStack = () => {
   return (
-    <div>
+    <>
       <h5>Stack</h5>
-      <div >
+      <div>
         <figure>
           <p className="fw-bold">Java</p>
           <figcaption class="blockquote-footer lh-sm">
-            Hibernate ,Spring Boot, Spring MVC, Spark Java, Vert.x, Jakarta EE, Jackson and etc.
+            Hibernate ,Spring Boot, Spring MVC, Spark Java, Vert.x, Jakarta EE,
+            Jackson and etc.
             <div>
               <ProgressBar variant="warning" now={90} />
             </div>
@@ -17,7 +18,7 @@ export const TechStack = () => {
         <figure>
           <p className="fw-bold">Database</p>
           <figcaption class="blockquote-footer lh-sm">
-          MySql, Sql Server, Oracle Sql and etc
+            MySql, Sql Server, Oracle Sql and etc
             <div>
               <ProgressBar variant="warning" now={80} />
             </div>
@@ -34,7 +35,7 @@ export const TechStack = () => {
         </figure>
         <figure>
           <p className="fw-bold">HTML</p>
-          <figcaption className="lh-1"> 
+          <figcaption className="lh-1">
             <div className="lh-1">
               <ProgressBar variant="warning" now={60} />
             </div>
@@ -43,7 +44,7 @@ export const TechStack = () => {
         <figure>
           <p className="fw-bold">CSS</p>
           <figcaption className="blockquote-footer lh-sm">
-          CSS3, Boostrap, Material design
+            CSS3, Boostrap, Material design
             <div>
               <ProgressBar variant="warning" now={60} />
             </div>
@@ -59,6 +60,6 @@ export const TechStack = () => {
           </figcaption>
         </figure>
       </div>
-    </div>
+    </>
   );
 };
