@@ -56,7 +56,7 @@ return(
          description= {`- Implement and integrate ERP system to client server.\n- Provided support in software deployment in maintenance phase, the service includes fixing bugs, resolving queries, form design, product demonstration.`}
      />
           <Company
-         website="https://www.crimsonlogic.com/"
+         website="https://www.dieboldnixdorf.com/"
          icon={`${BASE_URL}/company-icon/dieboldnixdorf.jpg`}
          jobTitle='Quality Assurance Tester'
          name='Diebold Nixdorf (Malaysia) Sdn Bhd'

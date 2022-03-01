@@ -8,7 +8,7 @@ export const Education = () => {
       <div class="d-flex mt-3">
         <div class="flex-shrink-0">
           <a
-            href="https://www.apu.edu.my/"
+            href="https://www.apu.edu.my/our-courses/undergraduate-studies/school-computing-technology/bsc-hons-software-engineering/"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -34,7 +34,7 @@ export const Education = () => {
       <div class="d-flex mt-3">
         <div class="flex-shrink-0">
           <a
-            href="https://www.apu.edu.my/"
+            href="https://www.apu.edu.my/our-courses/pre-university-studies/diploma-programmes/diploma-information-communication-technology/"
             target="_blank"
             rel="noopener noreferrer"
           >
