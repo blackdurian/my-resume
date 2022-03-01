@@ -71,7 +71,7 @@ export const Header = () => {
           <div>
             <a
               className="text-decoration-none text-secondary pe-4"
-              href="https://github.com/blackdurian"
+              href="https://github.com/blackdurian/my-resume/raw/main/cv.pdf"
               title="Curriculum Vitae"
               target="_blank"
               rel="noopener noreferrer"
