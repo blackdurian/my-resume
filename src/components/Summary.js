@@ -4,7 +4,7 @@ export const Summary = () => {
       <h5>Summary</h5>
       <div className="mt-2">
         <p>
-          I’m a student, software developer and a problem solver who thrives in
+          I’m a software developer and a problem solver who thrives in
           solving complex problems, whether that's through coding innovative
           solutions or by empowering others. I've always believed in the growth
           mindset, and keen on learning the latest technologies in the industry!
