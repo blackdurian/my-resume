@@ -1,4 +1,5 @@
 import Image from "react-bootstrap/Image";
+import { BASE_URL } from "../constant";
 
 export const Education = () => {
   return (
@@ -14,7 +15,7 @@ export const Education = () => {
             <Image
               width="60"
               height="60"
-              src="https://raw.githubusercontent.com/blackdurian/my-resume/gh-pages/company-icon/apu.jpg"
+              src={`${BASE_URL}/company-icon/apu.jpg`}
               roundedCircle
               thumbnail
             />
@@ -40,7 +41,7 @@ export const Education = () => {
             <Image
               width="60"
               height="60"
-              src="https://raw.githubusercontent.com/blackdurian/my-resume/gh-pages/company-icon/apu.jpg"
+              src={`${BASE_URL}/company-icon/apu.jpg`}
               roundedCircle
               thumbnail
             />

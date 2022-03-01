@@ -1,4 +1,4 @@
- 
+import { BASE_URL } from "../constant";
 import {
   AiOutlineLinkedin,
   AiOutlineGithub,
@@ -31,7 +31,6 @@ export const Header = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              {" "}
               <AiOutlineLinkedin /> linkedin.com/in/weiquanlo
             </a>
           </div>
@@ -58,8 +57,7 @@ export const Header = () => {
             <a
               className="text-decoration-none text-secondary pe-4"
               href="mailto:loweiquan@gmail.com"
-              title="Email"
-              target="_blank"
+              title="Email" 
               rel="noopener noreferrer"
             >
               <AiOutlineMail /> loweiquan@gmail.com
@@ -71,7 +69,7 @@ export const Header = () => {
           <div>
             <a
               className="text-decoration-none text-secondary pe-4"
-              href="https://github.com/blackdurian/my-resume/raw/main/cv.pdf"
+              href={`${BASE_URL}/cv.pdf`}
               title="Curriculum Vitae"
               target="_blank"
               rel="noopener noreferrer"

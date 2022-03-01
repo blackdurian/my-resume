@@ -1,4 +1,5 @@
 import Image from "react-bootstrap/Image";
+import { BASE_URL } from "../constant";
 
 const Company = ({name, website,icon,jobTitle, jobLevel, periodStr, description}) => {
   return (
@@ -38,7 +39,7 @@ return(
     <h5>Experience</h5>
      <Company
          website="https://www.crimsonlogic.com/"
-         icon="https://raw.githubusercontent.com/blackdurian/my-resume/gh-pages/company-icon/crimsomlogic.jpg"
+         icon={`${BASE_URL}/company-icon/crimsomlogic.jpg`}
          jobTitle='Software Engineer'
          name='CrimsonLogic Pte Ltd'
          jobLevel='Internship'
@@ -47,7 +48,7 @@ return(
      />
           <Company
          website="https://yonyou.com.my/"
-         icon='https://raw.githubusercontent.com/blackdurian/my-resume/gh-pages/company-icon/yonyou.jpg'
+         icon={`${BASE_URL}/company-icon/yonyou.jpg`}
          jobTitle='Assistant Developer'
          name='Yonyou (Malaysia) Sdn Bhd'
          jobLevel='Internship'
@@ -56,7 +57,7 @@ return(
      />
           <Company
          website="https://www.crimsonlogic.com/"
-         icon="https://raw.githubusercontent.com/blackdurian/my-resume/gh-pages/company-icon/dieboldnixdorf.jpg"
+         icon={`${BASE_URL}/company-icon/dieboldnixdorf.jpg`}
          jobTitle='Quality Assurance Tester'
          name='Diebold Nixdorf (Malaysia) Sdn Bhd'
          jobLevel='Internship'
