@@ -4,10 +4,25 @@ export const Languages = () => {
   return (
     <div className="mt-4">
       <h5>Languages</h5>
-      <div className="mt-2">
-        <h6>
-          Mandarin <Badge pill  bg="secondary">Native</Badge> ,  English <Badge pill  bg="secondary">Proficient</Badge> ,  Bahasa Malay <Badge pill  bg="secondary">Basic</Badge>
-        </h6> 
+      <div className="mt-2 d-flex row">
+        <h6 className="me-2 col-auto">
+          Mandarin
+          <Badge className="ms-1" pill bg="secondary">
+            Native
+          </Badge>
+        </h6>
+        <h6 className="me-2 col-auto">
+          English
+          <Badge className="ms-1" pill bg="secondary">
+            Proficient
+          </Badge>
+        </h6>
+        <h6 className="me-2 col-auto">
+          Bahasa Malay
+          <Badge className="ms-1" pill bg="secondary">
+            Basic
+          </Badge>
+        </h6>
       </div>
     </div>
   );
